@@ -1,0 +1,75 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+  }
+  
+  .candidate {
+    text-align: center;
+  }
+  
+  .candidate img {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    color: #333;
+  }
+  
+  #join-us {
+    text-align: center;
+    padding: 30px;
+    background-color: #eef;
+  }
+  
+  #join-us h2 {
+    color: #4CAF50;
+  }
+  
+  #join-us p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
