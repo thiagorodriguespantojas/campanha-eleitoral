@@ -3,43 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prefeito Fonseca 10 e Vice-Prefeito Quinho Azevedo</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Campanha Fonseca 10 & Quinho Azevedo</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <!-- Seção 1: Header - Imagem principal e redes sociais -->
     <header>
-        <div class="header-content">
+        <div class="container header-content">
             <h1>Prefeito Fonseca 10</h1>
             <h2>Vice-Prefeito Quinho Azevedo</h2>
+            <p>Trabalhando para um futuro melhor para todos!</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/fc.delegadofonseca" target="_blank">Instagram</a>
+                <a href="https://www.facebook.com/prefeitofonseca10" target="_blank">Facebook</a>
+                <a href="https://www.youtube.com/channel/fonseca10" target="_blank">YouTube</a>
+            </div>
         </div>
     </header>
 
-    <section id="about">
+    <!-- Seção 2: Biografia -->
+    <section id="biografia" class="section">
         <div class="container">
-            <div class="candidate">
-                <img src="https://via.placeholder.com/300x400.png?text=Prefeito+Fonseca" alt="Prefeito Fonseca 10">
-                <h3>Prefeito Fonseca 10</h3>
-                <p>Fonseca 10, líder comprometido com a transformação da nossa cidade. Trabalhando incansavelmente para garantir o progresso e o bem-estar da população.</p>
-            </div>
-
-            <div class="candidate">
-                <img src="https://via.placeholder.com/300x400.png?text=Vice+Prefeito+Quinho+Azevedo" alt="Vice-Prefeito Quinho Azevedo">
-                <h3>Vice-Prefeito Quinho Azevedo</h3>
-                <p>Quinho Azevedo, ao lado de Fonseca 10, contribuindo para o desenvolvimento e para um futuro melhor para todos.</p>
+            <h2>Biografia</h2>
+            <div class="bio-content">
+                <div class="bio-text">
+                    <p>Fonseca 10 tem uma longa trajetória dedicada ao serviço público, sempre atuando com transparência e integridade. Sua missão é construir uma cidade melhor, com mais oportunidades para todos, e seguir ouvindo as necessidades da população.</p>
+                </div>
+                <div class="bio-text">
+                    <p>Quinho Azevedo, ao lado de Fonseca, traz experiência e compromisso, sendo uma peça chave na construção de um governo voltado ao bem-estar e à melhoria contínua da cidade.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="join-us">
+    <!-- Seção 3: Propostas de Governo -->
+    <section id="propostas" class="section proposals">
         <div class="container">
-            <h2>Junte-se a nós!</h2>
-            <p>Contribua com a nossa campanha e participe das transformações que nossa cidade precisa. Vote Fonseca 10 e Quinho Azevedo!</p>
-            <button onclick="showMessage()">Clique para saber mais</button>
+            <h2>Propostas de Governo</h2>
+            <ul>
+                <li>✔️ Melhorias no sistema de saúde pública, com mais investimentos em hospitais e postos de saúde.</li>
+                <li>✔️ Desenvolvimento de programas educacionais de qualidade, focados no crescimento de crianças e jovens.</li>
+                <li>✔️ Implementação de políticas públicas para geração de empregos e qualificação profissional.</li>
+                <li>✔️ Projetos de infraestrutura, incluindo saneamento básico e pavimentação das ruas.</li>
+            </ul>
         </div>
     </section>
 
+    <!-- Seção 4: Galeria de Fotos -->
+    <section id="galeria" class="section">
+        <div class="container">
+            <h2>Galeria de Fotos</h2>
+            <div class="gallery">
+                <img src="https://via.placeholder.com/300x200.png?text=Fonseca+10+1" alt="Foto 1">
+                <img src="https://via.placeholder.com/300x200.png?text=Fonseca+10+2" alt="Foto 2">
+                <img src="https://via.placeholder.com/300x200.png?text=Fonseca+10+3" alt="Foto 3">
+                <img src="https://via.placeholder.com/300x200.png?text=Fonseca+10+4" alt="Foto 4">
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 5: Vídeos da Campanha -->
+    <section id="videos" class="section">
+        <div class="container">
+            <h2>Vídeos da Campanha</h2>
+            <div class="video-gallery">
+                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Vídeo da campanha"></iframe>
+                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Vídeo da campanha"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 6: Chamada para ação -->
+    <section id="call-to-action" class="section">
+        <div class="container">
+            <h2>Participe da Transformação</h2>
+            <p>Seja parte da mudança! Contribua com a campanha de Fonseca 10 e Quinho Azevedo.</p>
+            <button onclick="alert('Obrigado por apoiar a campanha!')">Clique e participe!</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Campanha Fonseca 10 e Quinho Azevedo. Todos os direitos reservados.</p>
+        <div class="container">
+            <p>&copy; 2024 - Campanha Fonseca 10 e Quinho Azevedo. Todos os direitos reservados.</p>
+        </div>
     </footer>
 
     <script src="scripts.js"></script>
